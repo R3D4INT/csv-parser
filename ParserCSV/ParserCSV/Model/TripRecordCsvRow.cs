@@ -2,7 +2,7 @@
 
 namespace ParserCSV;
 
-public class TripRecord
+public class TripRecordCsvRow
 {
     [Name("tpep_pickup_datetime")]
     public DateTime TpepPickupDatetime { get; set; }
